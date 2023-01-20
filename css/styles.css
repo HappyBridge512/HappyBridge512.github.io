@@ -608,6 +608,13 @@ body{
   margin: 30px 10px 0 10px;
   max-width: 80%;
 }
+.project__2{
+  display: flex;
+  width: 300px;
+  height: 70px;
+  margin: 30px 10px 0 10px;
+  max-width: 80%;
+}
 .avatar{
   width: 70px;
   height: 70px;
@@ -616,6 +623,17 @@ body{
   border: 2px solid #ffffff15;
   background-image: url("../img/nana.jpg");
   background-size: 115%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.avatar__2{
+  width: 70px;
+  height: 70px;
+  background-color: #00000025;
+  border-radius: 20px 0 0 20px;
+  border: 2px solid #ffffff15;
+  background-image: url("../img/sumiko.jpg");
+  background-size: 110%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -637,6 +655,28 @@ body{
   font-size: 15px;
 }
 .name__project p:nth-child(1){
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff60;
+  font-size: 20px;
+}
+.name__project__2{
+  display: flex;
+  width: 230px;
+  height: 70px;
+  background-color: #00000025;
+  margin-left: 10px;
+  border-radius: 0 20px 20px 0;
+  border: 2px solid #ffffff15;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.name__project__2 p{
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff60;
+  font-size: 15px;
+}
+.name__project__2 p:nth-child(1){
   font-family: 'Ubuntu', sans-serif;
   color: #ffffff60;
   font-size: 20px;
